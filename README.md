@@ -3,7 +3,7 @@
 This is my personal portfolio project built with **React + JavaScript + Vite + TailwindCSS**.  
 I’m using this repo to track progress, make commits, and keep backups while I build.
 
-## 🛠Tech Stack
+## Tech Stack
 - **Frontend:** React, JavaScript, Vite
 - **Styling:** TailwindCSS / Bootstrap
 - **Version Control:** Git + GitHub
