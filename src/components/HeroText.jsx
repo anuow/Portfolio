@@ -9,6 +9,7 @@ const HeroText = () => {
     }
   return (
     <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
+
         {/* Desktop View */}
         <div className="flex-col hidden md:flex c-space">
             <motion.h1 
@@ -20,6 +21,7 @@ const HeroText = () => {
             >
                 Hi im Anu
             </motion.h1>
+
             <div className="flex flex-col items-start">
                 <motion.p 
                     className="text-5xl font-medium text-nuetral-300"
@@ -30,17 +32,19 @@ const HeroText = () => {
                 >
                     A Developer Dedicated To Crafting
                 </motion.p>
-                    <motion.div 
-                        variants={variants}
-                        initial="hidden"
-                        animate="visible"
-                        transition={{ delay: 1.5 }}
-                    >
-                        <FlipWords 
+
+                <motion.div 
+                    variants={variants}
+                    initial="hidden"
+                    animate="visible"
+                    transition={{ delay: 1.5 }}
+                >
+                    <FlipWords 
                         words={words} 
                         className="font-black text-white text-8xl"
-                        />
-                    </motion.div>
+                    />
+                </motion.div>
+
                 <motion.p 
                     className="text-4xl font-medium text-neutral-300"
                     variants={variants}
@@ -65,6 +69,7 @@ const HeroText = () => {
             >
                 Hi Im Anu
             </motion.p>
+
             <div>
                 <motion.p 
                     className="text-5xl font-black text-neutral-300"
@@ -87,6 +92,7 @@ const HeroText = () => {
                     className="font-bold text-white text-7xl"
                     />
                 </motion.div>
+                
                 <motion.p 
                     className="text-4xl font-black text-neutral-300"
                     variants={variants}
