@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Env files (for API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# OS junk
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo

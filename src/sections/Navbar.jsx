@@ -1,8 +1,27 @@
 import { useState } from "react"
+import {motion} from "motion/react"
 function Navigation() {
     return (
         <ul className="nav-ul">
             <li className="nav-li">
+                <a className="nav-link" href="#home">
+                    Home
+                </a>
+            </li>
+            <li className="nav-li">
+                <a className="nav-link" href="#about">
+                    About
+                </a>
+            </li>
+            <li className="nav-li">
+                <a className="nav-link" href="#work">
+                    Work
+                </a>
+            </li>
+            <li className="nav-li">
+                <a className="nav-link" href="#contact">
+                    Contact
+                </a>
             </li>
         </ul>
     )
@@ -26,9 +45,24 @@ const Navbar = () => {
                     className="w-6 h-6" 
                     alt="toggle"/>
                 </button>
-                <nav className="hidden sm:flex"></nav>
+                <nav className="hidden sm:flex">
+                    <Navigation />
+                </nav>
             </div>
         </div>
+        {isOpen && (
+            <motion.div 
+                className="block overflow-hidden text-center sm:hidden"
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                style={{ maxHeight: "100vh" }}
+                transition={{ duration: 1 }}
+            >
+            <nav className="pb-5">
+                <Navigation />
+            </nav>
+        </motion.div>
+        )}
     </div>
   )
 }
