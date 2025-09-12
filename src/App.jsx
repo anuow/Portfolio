@@ -3,6 +3,10 @@
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/About'
+import Projects from './sections/Projects'
+import Eperiences from './sections/Eperiences'
+import Contact from './sections/Contact'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -10,18 +14,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      
-      {/* projects */}
-      {/* experience */}
-      {/* testimonial */}
-      {/* contact */}
-      {/* footer */}
+      <Projects />
+      <Eperiences />
+      <Contact />
+      <Footer />
     </div>
   )
 }
