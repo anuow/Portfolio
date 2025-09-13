@@ -1,5 +1,7 @@
 # Portfolio Website
 
+![preview](photo_2025-09-13_17-35-09.jpg)
+
 A modern, responsive, and animated portfolio website built with **Vite + React**, styled with **Tailwind CSS**, and enhanced with **Framer Motion** for smooth animations.
 
 I’m using this repo to track progress, make commits, and keep backups while I build.
