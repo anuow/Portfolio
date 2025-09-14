@@ -14,7 +14,7 @@ const About = () => {
             <div className="flex items-end grid-default-color grid-1">
               <img
                 src="assets/coding-pov.png"
-                className="absolute scale-125 sm:scale-150 md:scale-[2.5] lg:scale-[3] right-0 top-4 md:left-10"
+                className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
                 alt="coding pov"
               />
 
