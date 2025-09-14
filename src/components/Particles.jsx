@@ -1,14 +1,5 @@
-"use client";
-
 import { twMerge } from "tailwind-merge";
-import React, {
-  
-  useEffect,
-  useRef,
-  useState,
-} from "react";
-
-
+import React, { useEffect, useRef, useState } from "react";
 
 function MousePosition() {
   const [mousePosition, setMousePosition] = useState({
@@ -31,8 +22,7 @@ function MousePosition() {
   return mousePosition;
 }
 
-
-function hexToRgb(hex){
+function hexToRgb(hex) {
   hex = hex.replace("#", "");
 
   if (hex.length === 3) {
@@ -49,9 +39,7 @@ function hexToRgb(hex){
   return [red, green, blue];
 }
 
-
-
-export const Particlesrop = ({
+export const Particles = ({
   className = "",
   quantity = 100,
   staticity = 50,
@@ -150,7 +138,7 @@ export const Particlesrop = ({
     }
   };
 
-  const circleParams = ()=> {
+  const circleParams = () => {
     const x = Math.floor(Math.random() * canvasSize.current.w);
     const y = Math.floor(Math.random() * canvasSize.current.h);
     const translateX = 0;
@@ -199,7 +187,7 @@ export const Particlesrop = ({
         0,
         0,
         canvasSize.current.w,
-        canvasSize.current.h,
+        canvasSize.current.h
       );
     }
   };
@@ -213,13 +201,7 @@ export const Particlesrop = ({
     }
   };
 
-  const remapValue = (
-    value,
-    start1,
-    end1,
-    start2,
-    end2,
-  ) => {
+  const remapValue = (value, start1, end1, start2, end2) => {
     const remapped =
       ((value - start1) * (end2 - start2)) / (end1 - start1) + start2;
     return remapped > 0 ? remapped : 0;
@@ -237,7 +219,7 @@ export const Particlesrop = ({
       ];
       const closestEdge = edge.reduce((a, b) => Math.min(a, b));
       const remapClosestEdge = parseFloat(
-        remapValue(closestEdge, 0, 20, 0, 1).toFixed(2),
+        remapValue(closestEdge, 0, 20, 0, 1).toFixed(2)
       );
       if (remapClosestEdge > 1) {
         circle.alpha += 0.02;
