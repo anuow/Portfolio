@@ -9,11 +9,11 @@ const ProjectDetails = ({
   href,
   closeModal,
 }) => {
-  console.log("ProjectDetails mounted");
+  
   
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full p-4 overflow-hidden backdrop-blur-sm">
-      <motion.div
+      <div
         className="relative w-full max-w-2xl max-h-full overflow-y-auto border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.8, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -71,7 +71,7 @@ const ProjectDetails = ({
             </a>
           </div>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };
