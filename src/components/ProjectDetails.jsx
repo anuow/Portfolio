@@ -8,14 +8,13 @@ const ProjectDetails = ({
   href,
   closeModal,
 }) => {
+    console.log("ProjectDetails mounted");
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
-        className="relative w-[95%] md:max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
-        initial={{ opacity: 0, scale: 0.95 }}
+        className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        transition={{ duration: 0.3 }}
       >
         <button
           onClick={closeModal}
