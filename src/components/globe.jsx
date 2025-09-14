@@ -8,7 +8,7 @@ import { twMerge } from "tailwind-merge";
 
 const MOVEMENT_DAMPING = 1400;
 
-const GLOBE_CONFIG = {
+const GLOBE_CONFIG= {
   width: 800,
   height: 800,
   onRender: () => {},
@@ -36,7 +36,10 @@ const GLOBE_CONFIG = {
   ],
 };
 
-export function Globe({ className, config = GLOBE_CONFIG }) {
+export function Globe({
+  className,
+  config = GLOBE_CONFIG,
+}) {
   let phi = 0;
   let width = 0;
   const canvasRef = useRef(null);
@@ -98,12 +101,12 @@ export function Globe({ className, config = GLOBE_CONFIG }) {
     <div
       className={twMerge(
         "mx-auto aspect-[1/1] w-full max-w-[600px]",
-        className
+        className,
       )}
     >
       <canvas
         className={twMerge(
-          "size-[30rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]"
+          "size-[30rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]",
         )}
         ref={canvasRef}
         onPointerDown={(e) => {
