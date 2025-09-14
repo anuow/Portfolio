@@ -14,7 +14,7 @@ const ProjectDetails = ({
         className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={false}
         animate={{ opacity: 1, scale: 1 }}
-        
+        transition={{ duration: 0.3 }}
       >
         <button
           onClick={closeModal}
