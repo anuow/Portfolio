@@ -21,9 +21,7 @@ const About = () => {
               <div className="z-10">
                 <p className="headtext">Hi, I'm Anirudh Santosh Kumar</p>
                 <p className="subtext">
-                  Building clear, interactive, and user-friendly web applications is my passion as an aspiring full-stack developer. 
-                  I also experiment with digital art, design, and creative endeavors that combine creativity and technology. 
-                  Through coding projects, open-source contributions, and ongoing self-learning, I'm currently learning contemporary frameworks and honing my problem-solving abilities.
+                  “I’m a full-stack developer passionate about building clear and user-friendly web apps. I also explore digital art and design, blending creativity with technology while continuously learning modern frameworks and problem-solving skills.”
                 </p>
               </div>
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-indigo-900 pointer-events-none"/>
