@@ -98,7 +98,7 @@ const About = () => {
             </div>
             {/* Grid 5 */}
             <div className="grid-default-color grid-5">
-              <div className="z-10 w-full md:w-[50%]">
+              <div className="z-10 w-[50%]">
 
                 <p className="headtext">Tech Stack</p>
                 <p className="subtext">
