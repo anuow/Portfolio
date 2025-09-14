@@ -4,7 +4,7 @@ function Navigation() {
     return (
         
 
-        <ul  className="nav-ul">
+        <ul  className="nav-ul m-0 p-0">
             <li className="nav-li">
                 <a className="nav-link" href="/">
                     Home
@@ -31,7 +31,7 @@ function Navigation() {
 const Navbar = () => {
     const[isOpen, setISOpen]=useState(false)
   return (
-    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
+    <div className="fixed inset-x-0 z-20 w-full overflow-x-hidden backdrop-blur-lg bg-primary/40">
         <div className="mx-auto c-space max-w-7xl">
             <div className="flex items-center justify-between py-2 sm:py-0">
 
