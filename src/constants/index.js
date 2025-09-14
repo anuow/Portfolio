@@ -124,16 +124,11 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Github",
-        path: "/assets/logos/github.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 5,
+        id: 4,
         name: "Vite.js",
         path: "/assets/logos/vitejs.svg",
       },
