@@ -101,9 +101,7 @@ const About = () => {
               <div className="z-10 w-[50%]">
 
                 <p className="headtext">Tech Stack</p>
-                <p className="subtext">
-                  Building scalable, high-performance, and clean applications 
-                </p>
+                
                 <p className="subtext">
                   HTML5 • CSS3 • JavaScript • TypeScript • React • Tailwind • Python • SQL • Flutter • Git/GitHub
 
