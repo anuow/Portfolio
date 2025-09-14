@@ -102,7 +102,7 @@ const About = () => {
 
                 <p className="headtext">Tech Stack</p>
                 <p className="subtext">
-                  Building scalable, high-performance, and clean   applications is made possible by my expertise in a wide variety of languages, frameworks, and tools.
+                  Building scalable, high-performance, and clean applications 
                 </p>
                 <p className="subtext">
                   HTML5 • CSS3 • JavaScript • TypeScript • React • Tailwind • Python • SQL • Flutter • Git/GitHub
