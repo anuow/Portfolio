@@ -14,7 +14,8 @@ const About = () => {
             <div className="flex items-end grid-default-color grid-1">
               <img
                 src="assets/coding-pov.png"
-                className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
+                className="absolute scale-125 sm:scale-150 md:scale-[2.5] lg:scale-[3] right-0 top-4 md:left-10"
+                alt="coding pov"
               />
 
               <div className="z-10">
@@ -25,8 +26,8 @@ const About = () => {
                   Through coding projects, open-source contributions, and ongoing self-learning, I'm currently learning contemporary frameworks and honing my problem-solving abilities.
                 </p>
               </div>
-              <div className="absolute inset-x-0 pointer-evets-none-bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo"/>
-            </div>
+              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-indigo-900 pointer-events-none"/>
+              </div>
             {/* Grid 2 */}
             <div className="grid-default-color grid-2">
               <div ref={grid2Container}className="flex items-center justify-center w-full h-full">
@@ -78,7 +79,7 @@ const About = () => {
             </div>
             {/* Grid 3 */}
             <div className="grid-black-color grid-3">
-              <div className="z-10 w-[50%]">
+              <div className="z-10 w-full md:w-[50%]">
                 <p className="headtext">Time Zone</p>
                 <p className="subtext">
                   I’m based in India and open to remote opportunities worldwide
@@ -99,7 +100,8 @@ const About = () => {
             </div>
             {/* Grid 5 */}
             <div className="grid-default-color grid-5">
-              <div className="z-10 w-[50%]">
+              <div className="z-10 w-full md:w-[50%]">
+
                 <p className="headtext">Tech Stack</p>
                 <p className="subtext">
                   Building scalable, high-performance, and clean   applications is made possible by my expertise in a wide variety of languages, frameworks, and tools.
