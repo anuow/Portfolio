@@ -1,6 +1,35 @@
 export const myProjects = [
   {
     id: 1,
+    title: "Stream Meet",
+    description:
+      "A real-time video conferencing web app built with Next.js and TypeScript, providing a smooth and secure experience for hosting and joining meetings.",
+    subDescription: [
+      "Developed using Next.js 15 with App Router and server actions for dynamic rendering. Integrated Clerk for authentication, Stream SDK for video functionality, and Tailwind CSS with Shadcn UI for a modern, responsive interface. Features include room creation, recording, scheduling, and past meeting tracking, all built in a clean modular structure.",
+    ],
+    href: "https://stream-meet-five.vercel.app",
+    logo: "",
+    image: "/assets/projects/goon.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/assets/logos/typescript.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwind.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Recommendation site",
     description:
       "A motorcycle recommendation web app tailored for the Indian market, helping users find the best bike based on their budget and usage.",
@@ -34,7 +63,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Flappy Bird Game",
     description:
       "The classic Flappy Bird game built using Flutter and Flame game engine.",
@@ -70,7 +99,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "To-Do App",
     description:
       "A simple yet functional mobile app for managing tasks and boosting productivity.",
@@ -101,7 +130,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Personal Portfolio Website",
     description:
       "A responsive, animated portfolio site showcasing my skills, projects, and journey as a developer.",
@@ -134,44 +163,7 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "Calorie Tracker (In Progress)",
-    description:
-      "A cross-platform mobile app to log meals, track calories, and visualize nutrition progress.",
-    subDescription: [
-       "Developed using Flutter for both Android and iOS.",
-      "Designed a clean and minimal UI inspired by fitness tracking apps.",
-      "Planned integration with Firebase for authentication and real-time storage.",
-      "Experimenting with multi-phase roadmap for advanced features like analytics.",
-    ],
-    href: "https://github.com/anuow/calorie-tracker",
-    logo: "",
-    image: "",
-    tags: [
-      {
-        id: 1,
-        name: "Flutter",
-        path: "/assets/logos/flutter.svg",
-      },
-      {
-        id: 2,
-        name: "Dart",
-        path: "/assets/logos/dart.svg",
-      },
-      {
-        id: 3,
-        name: "Firebase",
-        path: "/assets/logos/firebase.svg",
-      },
-      {
-        id: 4,
-        name: "Github",
-        path: "/assets/logos/github.svg",
-      },
-    ],
-  },
-  
+
 ];
 
 export const mySocials = [
