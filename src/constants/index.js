@@ -24,7 +24,7 @@ export const myProjects = [
       {
         id: 3,
         name: "Tailwind CSS",
-        path: "/assets/logos/tailwind.svg",
+        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
